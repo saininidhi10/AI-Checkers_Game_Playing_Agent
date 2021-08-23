@@ -194,7 +194,7 @@ public class homework {
 	}
 
 	public static void main(String[] args) throws IOException {
-		homework hw2 = new homework("Test cases/input2.txt");
+		homework hw2 = new homework("Test cases/input.txt");
 		hw2.processInputFile(hw2.getFileReader());
 		if(hw2.mode.equals("SINGLE"))
 			hw2.singleMode();
